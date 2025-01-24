@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
 
     int inputdigit;
     scanf("%d",&inputdigit);
-    printf("You entered:%d ", &inputdigit);
+    printf("%d", &inputdigit);
     return 0;
 
 }

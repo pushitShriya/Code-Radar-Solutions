@@ -4,5 +4,5 @@ int main(){
     scanf("%d", &a);
     printf("Hexadecimal:%X ", a);
     printf("Octal:%o ", a);
-    retuen 0;
+    return 0;
 }

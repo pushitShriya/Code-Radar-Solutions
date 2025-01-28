@@ -4,5 +4,4 @@ int main(){
     scanf("You entered: %s " , str1);
     scanf("and %s" , str2);
     return 0;
-
 }

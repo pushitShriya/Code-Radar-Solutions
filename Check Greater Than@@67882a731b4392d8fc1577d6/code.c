@@ -5,5 +5,4 @@ void main(){
   if(num1>num2){
     printf("%s", "True");
   }
-  return 0;
 }

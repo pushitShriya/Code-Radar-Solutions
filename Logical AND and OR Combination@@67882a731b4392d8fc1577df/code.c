@@ -5,5 +5,8 @@ int main(){
     if((num1 > 0 && num2 < 0) || (num1 == 0 && num2 == 0 ));{
     printf("True");
     }
+    else{
+        printf("False");
+    }
     return 0;
 }

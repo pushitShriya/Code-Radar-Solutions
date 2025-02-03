@@ -1,12 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int num;
-    scnaf("%d", &num);
-    if (num & (1 << 31)){
+    int num , msb_num;
+    scanf("%d" , &num);
+    msb_num = 1 << 31;
+    if(num & msb_num){
         printf("Set");
     }
     else{
-        printf("Not Set");
+        printf("Not Set")
     }
     return 0;
 }

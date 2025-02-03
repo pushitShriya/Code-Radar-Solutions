@@ -3,6 +3,6 @@ int main(){
     int num , n;
     scanf("%d %d", &num , &n);
     int result = clearNthBit(num,n);
-    printf("%u" , result);
+    printf("%u" , n, result);
     return 0;
 }

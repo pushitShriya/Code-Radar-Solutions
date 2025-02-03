@@ -2,7 +2,7 @@
 int main(){
     int num , n;
     scanf("%d %d" , &num , &n);
-    if(num &(n<<1))
+    if(num &(n<<1));
     num &= ~(1<<n);
     else
     num |= (<<n);

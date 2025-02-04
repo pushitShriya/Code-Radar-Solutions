@@ -6,7 +6,7 @@ int main(){
         printf("Abive Freezing");
     }
     else if(temp<0 || temp==0){
-        printf("Freezing")
+        printf("Freezing");
     }
     return 0;
 }

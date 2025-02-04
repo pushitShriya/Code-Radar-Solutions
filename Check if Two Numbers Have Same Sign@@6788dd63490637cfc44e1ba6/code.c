@@ -12,7 +12,7 @@ int main(){
         printf("Different Sign");
     }
     else if(num1<0 && num2>0){
-        printf("Different Sign")
+        printf("Different Sign");
     }
     return 0;
 }

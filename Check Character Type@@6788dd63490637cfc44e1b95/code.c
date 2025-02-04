@@ -5,7 +5,7 @@ int main(){
     scanf("%c",&x);
     if(isalpha(x)){
         if(x=='a' || x=='e' || x=='i' || x=='o' || x=='u' || x=='A' || x=='E' 
-        || x=='I' || x=='O' x=='U'){
+        || x=='I' || x=='O' || x=='U'){
             printf("Vowel");
         }
         else{

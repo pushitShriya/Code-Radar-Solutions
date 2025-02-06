@@ -19,7 +19,7 @@ int main(){
         printf("Below Average");
         break;
 
-        case 'E':
+        case 'F':
         printf("Fail");
         break;
 

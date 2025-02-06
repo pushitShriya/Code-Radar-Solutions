@@ -11,7 +11,7 @@ int main(){
         printf("Good");
         break;
 
-        case 'c':
+        case 'C':
         printf("Average");
         break;
 

@@ -1,11 +1,8 @@
 #include <stdio.h>
 int main(){
-    int num , n;
-    scanf("%d %d" , &num , &n);
-    if(num &(n<<1));
-    num &= ~(1<<n);
-    else
-    num |= (<<n);
-    printf("%d",n,num);
+    int num1 , num2 , result;
+    scanf("%d %d" , &num1 , &num2);
+    result = num1^num2;
+    printf("%d",result);
     return 0;
 }

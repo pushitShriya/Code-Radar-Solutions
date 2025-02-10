@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int num;
-    scanf("%d",&num);
+    int n;
+    scanf("%d",&n);
     int position=0;
     while((n&1)==0 && n != 0){
         n>>1;

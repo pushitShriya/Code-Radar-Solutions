@@ -4,7 +4,7 @@ int main(){
     scanf("%lf %lf %lf" , &a , &b , &c);
     sum = a + b + c;
     average = sum / 3;
-    printf("Average: %.2lf " , average);
+    printf("Average: %.2f " , average);
     return 0;
     
 }

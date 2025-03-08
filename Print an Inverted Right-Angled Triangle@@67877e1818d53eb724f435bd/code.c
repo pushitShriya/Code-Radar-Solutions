@@ -7,9 +7,9 @@ int main(){
             if(i+j<=number)
             printf("*");
             else:
-            printf(" ")
+            printf(" ");
         }
-        printf("\n")
+        printf("\n");
     }
     return 0;
 }

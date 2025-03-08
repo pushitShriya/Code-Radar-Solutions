@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main(){
- int i , j , number;
- scanf("%d",&number);
- for(j=1;j<=number;j++){
-    for(i=1;i<=number;i++){
-        if(i+j<=5)
-        printf("* ");
-        else
-        printf(" ");
+    int number;
+    scanf("%d",&number);
+    for(int i=1;i<=number;i++){
+        for(int j=number;j<=number;j--){
+            if(i+j<=number)
+            printf("*");
+            else:
+            printf(" ")
+        }
+        printf("\n")
     }
-    printf("\n");
- }
- return 0;
+    return 0;
 }

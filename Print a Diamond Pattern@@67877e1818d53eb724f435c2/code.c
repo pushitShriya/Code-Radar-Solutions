@@ -7,7 +7,7 @@ int main(){
             printf(" ");
         }
         for(int j=1;j<=(2*i-1);j++){
-            printf("*");
+            printf("%c",j+64);
         }
         printf("\n");
     }
@@ -18,7 +18,7 @@ int main(){
         }
 
         for(int j=1;j<=2*i-1;j++){
-            printf("*");
+            printf("%c ",j+64);
         }
         printf("\n");
     }
